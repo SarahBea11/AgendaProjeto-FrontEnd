@@ -7,18 +7,24 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { AgendaComponent } from './agenda/agenda.component';
+import { HttpClientModule } from '@angular/common/http';
+import { AgendaFormComponent } from './agenda-form/agenda-form.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     InicioComponent,
-    AgendaComponent
+    AgendaComponent,
+    AgendaFormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

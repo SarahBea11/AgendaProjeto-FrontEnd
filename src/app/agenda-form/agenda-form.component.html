@@ -1,0 +1,22 @@
+<div class="container">
+  <h3>Registrar Compromisso</h3>
+  <form [formGroup]="formGroupAgendas">
+    <div class="mb-3">
+      <label for="namecommitment" class="form-label">Nome </label>
+      <input formControlName="namecommitment" type="text " class="form-control" id="namecommitment" placeholder="Digite o Nome">
+    </div>
+    <div class="mb-3">
+      <label for="localcommitment" class="form-label">Local</label>
+      <input formControlName="localcommitment" type="text " class="form-control" id="localcommitment" placeholder="Digite o Local">
+    </div>
+    <div class="mb-3">
+      <label for="date" class="form-label">Data</label>
+      <input formControlName="date" type="text " class="form-control" id="date" placeholder="Digite a Data">
+    </div>
+
+
+   <button *ngIf="!isEditing" type="button" class="btn btn-primary" (click)="save()">Salvar Compromisso</button>
+
+   <button *ngIf="isEditing" type="button" class="btn btn-primary" (click)="update()">Editar</button>
+  </form>
+</div>

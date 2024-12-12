@@ -2,27 +2,26 @@
   "Agendas": [
     {
       "id": 1,
-      "namecommitment":"Salao de Beleza" ,
-      "datecommintment": "Avenida das Laranjeiras, 100 Itu-SP",
+      "namecommitment": "Salao de Beleza",
+      "localcommitment": "Avenida das Laranjeiras, 100 Itu-SP",
       "date": "08/12/2024"
     },
     {
       "id": 2,
-      "namecommitment":"Prova de Economia" ,
-      "datecommintment": "Fatec Itu",
+      "namecommitment": "Prova de Economia",
+      "localcommitment": "Fatec Itu",
       "date": "09/12/2024"
-
     },
     {
       "id": 3,
-      "namecommitment":"Dentisra" ,
-      "datecommintment": "Rua Floriano Peixoto, 884 - Centro, Itu-SP",
+      "namecommitment": "Dentista",
+      "localcommitment": "Rua Floriano Peixoto, 884 - Centro, Itu-SP",
       "date": "11/12/2024"
     },
     {
       "id": 4,
-      "namecommitment":"Cinema" ,
-      "datecommintment": "Plaza Shopping Itu",
+      "namecommitment": "Cinema",
+      "localcommitment": "Plaza Shopping Itu",
       "date": "14/12/2024"
     }
   ]

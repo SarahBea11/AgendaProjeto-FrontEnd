@@ -1,1 +1,25 @@
-<p>agenda works!</p>
+<h4>Informações da Agenda</h4>
+<div class="container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Nome do Compromisso</th>
+        <th scope="col">Local do Compromisso</th>
+        <th scope="col">Data</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let Agenda of Agendas">
+          <th>{{Agenda.id}}</th>
+          <td><a [routerLink]="['/agenda', Agenda.id]">{{Agenda.namecommitment}}</a></td>
+          <td>{{Agenda.localcommitment}}</td>
+          <td>{{Agenda.date}}</td>
+          <td><button class="btn btn-danger" (click)="delete (Agenda)">Remover</button></td>
+
+        </tr>
+        <button class="btn btn-primary"(click)="create()">Novo</button>
+
+    </tbody>
+  </table>
+</div>
