@@ -7,7 +7,7 @@ import { FormGroup } from '@angular/forms';
   providedIn: 'root'
 })
 export class AgendaService {
-  url='http://localhost:3000/agendas';
+  url='http://localhost:8080/agenda';
 
   constructor(private http: HttpClient) {}
 
