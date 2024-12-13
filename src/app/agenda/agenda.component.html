@@ -6,6 +6,7 @@
         <th scope="col">ID</th>
         <th scope="col">Nome do Compromisso</th>
         <th scope="col">Local do Compromisso</th>
+        <th scope="col">Hora do Compromisso</th>
         <th scope="col">Data</th>
       </tr>
     </thead>
@@ -14,6 +15,7 @@
           <th>{{Agenda.id}}</th>
           <td><a [routerLink]="['/agenda', Agenda.id]">{{Agenda.namecommitment}}</a></td>
           <td>{{Agenda.localcommitment}}</td>
+          <td>{{Agenda.horacommitment}}</td>
           <td>{{Agenda.date}}</td>
           <td><button class="btn btn-danger" (click)="delete (Agenda)">Remover</button></td>
 

@@ -22,6 +22,7 @@ export class AgendaFormComponent implements OnInit{
       id: [''],
       namecommitment: [''],
       localcommitment: [''],
+      horacommitment: [''],
       date: [''],
     })};
 
